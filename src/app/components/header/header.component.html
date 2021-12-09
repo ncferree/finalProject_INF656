@@ -1,0 +1,24 @@
+<div class="container centered-container page-conatiner">
+    <a href="#!" class="brand-logo"><img src="../../assets/img/anb_logo.jpg" ></a>
+</div>
+
+<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons white-text text-lighten-2">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a routerLink="/" class="nav-link white-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+        <li><a routerLink="/about" class="nav-link white-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">About</a></li>
+        <li><a routerLink="/painting" class="nav-link white-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Painting</a></li>
+        <li><a routerLink="/repair-install" class="nav-link white-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" >Repair & Installation</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav white" id="mobile-demo">
+    <li><a routerLink="/" class="nav-link text-dark" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+    <li><a routerLink="/about" class="nav-link text-dark" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">About</a></li>
+    <li><a routerLink="/painting" class="nav-link text-dark" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Painting</a></li>
+    <li><a routerLink="/repair-install" class="nav-link text-dark" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" >Repair & Installation</a></li>
+    <li><a routerLink="/contact-us" class="nav-link text-dark" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" >Contact Us</a></li>
+  </ul>
